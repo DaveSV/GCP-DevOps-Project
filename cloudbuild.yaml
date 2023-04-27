@@ -5,7 +5,3 @@ steps:
     args: ['push', 'gcr.io/$PROJECT_ID/instant-bonbon-379400']
 images:
   - 'gcr.io/$PROJECT_ID/instant-bonbon-379400'
-
-
-
-  instant-bonbon-379400
