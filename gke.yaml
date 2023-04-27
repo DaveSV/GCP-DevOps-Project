@@ -13,7 +13,7 @@ spec:
         app: gcp
     spec:
       containers:
-      - name: gcp-devops-gke
+      - name: gcp-devops-cluster
         image: gcr.io/kodekloud-gcp-training/test-gcpdevops:latest
         ports:
         - containerPort: 5000
