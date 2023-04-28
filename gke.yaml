@@ -15,10 +15,11 @@ spec:
       containers:
       - name: gcp-devops-cluster
         image: gcr.io/instant-bonbon-379400/gcpdevops
+        ports:
         - containerPort: 5000
         env:
-          - name: PORT
-            value: "5000"
+        - name: PORT
+          value: "5000"
 ---
 apiVersion: "v1"
 kind: "Service"
@@ -35,3 +36,4 @@ spec:
   selector:
     app: "gcp"
   type: "LoadBalancer"
+
