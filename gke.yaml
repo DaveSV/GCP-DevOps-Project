@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-cluster
-        image: gcr.io/kodekloud-gcp-training/test-gcpdevops:latest
-        ports:
+        image: gcr.io/instant-bonbon-379400/gcpdevops
         - containerPort: 5000
         env:
           - name: PORT
