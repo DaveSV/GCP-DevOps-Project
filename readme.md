@@ -22,3 +22,5 @@ Deployment in cluster
 ![Ci   CD GCP final](https://user-images.githubusercontent.com/29576337/235113545-a88b399c-41d2-4cce-b80f-7ef805074e5a.png)
 
 Exposed front-end
+
+## IMPORTANT: Container Registry is deprecated. After March 18, 2025, Container Registry will be closed, if you have created the image before that date you will need to upgrade to Artifact Registry.
